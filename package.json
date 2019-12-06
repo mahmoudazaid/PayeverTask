@@ -1,0 +1,14 @@
+{
+  "name": "mocha-webdriver-page-objects-example",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha Tests/specs/",
+    "runner": "node runner.js"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chromedriver": "^2.41.0",
+    "mocha": "^5.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
